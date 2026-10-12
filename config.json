@@ -1,0 +1,12 @@
+{
+  "interface": "",
+  "server_address": "127.0.0.1",
+  "server_port": 6767,
+  "client_port": 6768,
+  "offer_timeout": 3.0,
+  "ack_timeout": 3.0,
+  "attempts": 2,
+  "workers": 32,
+  "logging": {"level": "INFO", "file": ""},
+  "output": {"dir": "sessions", "formats": ["terminal"]}
+}

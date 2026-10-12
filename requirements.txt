@@ -1,0 +1,5 @@
+# FLHCP runtime dependencies: none for the loopback lab (standard library only).
+# For LIVE runs against a real router, install scapy (some kernels — notably
+# NetHunter — silently drop Python UDP broadcasts that never reach the wire;
+# scapy injects raw L2 frames that those kernels do forward):
+#   pip install scapy
